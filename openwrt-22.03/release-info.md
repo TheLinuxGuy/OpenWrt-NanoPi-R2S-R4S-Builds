@@ -1,4 +1,4 @@
-## OpenWrt branch 22.03 (experimental WIP)
+## OpenWrt branch 22.03 (stable)
 
 ### Warning
 - Fully experimental build, still WIP.
@@ -16,3 +16,16 @@
 - Full build with LuCI, docker and extra packages
 - firewall4 based (nftables) + iptables compatibility packages for now, might change later.
 - pbr latest version from https://github.com/stangri/source.openwrt.melmac.net
+
+### Changelog
+- [2022-10-19] Re-Update U-Boot to 2022.07 and use FriendlyWrt patches
+- [2022-09-28] Add kmod-sched
+- [2022-09-27] Revert u-boot to 2021.07 to fix R4S 1Gb broken support
+- [2022-09-17] Align patches / Haproxy 2.6.5
+- [2022-08-30] Add qosify
+- [2022-08-25] Update U-Boot to 2022.07 (only tested on R4S 4GB)
+- [2022-08-25] Backport Packages from master
+- [2022-08-25] Update r8168 driver
+- [2022.08.19] Rework patches
+- [2022.08.17] Update 22.03 seeds to match 21.02
+- [2022.08.17] Add watchcat
